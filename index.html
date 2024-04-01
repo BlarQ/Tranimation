@@ -9,44 +9,48 @@
 </head>
 <body>
     <section>
-        <h1>Transition, Transform & Animation Project</h1>
+        <h1>Transition & Animation Project</h1>
     
-        <h2>Transform</h2>
-        <div class="tran1">
-            <p>Rotate</p>
-        </div>
-        <div class="tran2">
-            <p>SkewY</p>
-        </div>
-        <div class="tran3">
-            <p>ScaleX/Y</p>
-        </div>
-        <div class="tran4">
-            <p>Sample Div</p>
-        </div>
-    </section>
-
-    <section>
         <h2>Transition</h2>
-        <p>Mostly used with pseudo-elements like Hover & Focus</p>
+
+        <p>Mostly used with elements like Hover & Focus</p>
 
         <p>Synthax - transition: property duration timing-function delay|initial|inherit;</p>
-        <div class="tran1">
-            <p>Sample 1</p>
-        </div>
-        <div class="tran2">
-            <p>Sample 2</p>
-        </div>
-        <div class="tran3">
-            <p>Sample 3</p>
+
+
+        <div class="transContainer">
+            <div class="trans" id="Rotate">
+                <p>Rotate</p>
+            </div>
+            <div class="trans" id="SkewY">
+                <p>SkewY</p>
+            </div>
+            <div class="trans" id="ScaleX">
+                <p>Scale<br>X & Y</p>
+            </div>
         </div>
     </section>
 
-    <section>
+    <section class="others">
+        <h2> Other Transition Properties</h2>
+        <div class="secondSec">
+            <div class="trans1" id="trans1">
+                <p>Translate</p>
+            </div>
+            <div class="trans1" id="trans2">
+                <p>Scale & Translate</p>
+            </div>
+            <div class="trans1" id="trans3">
+                <p>360deg Rotate</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="key">
         <h2>Animation</h2>
 
         <div class="keyframe">
-            <button type="button">Enter</button>
+
         </div>
     </section>
 </body>
